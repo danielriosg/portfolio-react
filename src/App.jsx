@@ -3,15 +3,19 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import { Outlet } from "react-router-dom";
 import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+
+
 
 function App() {
   return (
-    <>
+    <div>
       <Header />
-      <Outlet /> {/* Add this Outlet component */}
+      <div className='container-fluid'>{/* Your main content goes here */}</div>
       <Footer />
-    </>
+    </div>
   );
 }
+
 
 export default App;

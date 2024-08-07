@@ -7,6 +7,7 @@ import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import Resume from "./pages/Resume";
 import "./index.css"; // Global styles
+import "bootstrap/dist/css/bootstrap.min.css"; 
 
 const router = createBrowserRouter([
   {

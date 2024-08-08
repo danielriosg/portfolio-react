@@ -6,7 +6,7 @@ import "../styles/Header.css";
 
 function Header() {
   return (
-    <header className='header-container bg-light py-3'>
+    <header className='custom-header py-3'>
       <div className='container-fluid'>
         <div className='row'>
           <div className='col-12 text-center'>

@@ -1,0 +1,11 @@
+/* src/styles/Footer.css */
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.container {
+  max-width: 100%;
+}

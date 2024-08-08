@@ -11,11 +11,14 @@ function App() {
   return (
     <div>
       <Header />
-      <div className='container-fluid'>{/* Your main content goes here */}</div>
+      <div className='container-fluid'>
+        <Outlet /> {/* This is where the child components will be rendered */}
+      </div>
       <Footer />
     </div>
   );
 }
+
 
 
 export default App;

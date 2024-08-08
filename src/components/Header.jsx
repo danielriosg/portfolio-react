@@ -14,30 +14,9 @@ function Header() {
           </div>
         </div>
         <div className='row'>
-          <nav className='col-12'>
-            <ul className='nav justify-content-center'>
-              <li className='nav-item'>
-                <Link to='/' className='nav-link'>
-                  About Me
-                </Link>
-              </li>
-              <li className='nav-item'>
-                <Link to='/portfolio' className='nav-link'>
-                  Portfolio
-                </Link>
-              </li>
-              <li className='nav-item'>
-                <Link to='/contact' className='nav-link'>
-                  Contact
-                </Link>
-              </li>
-              <li className='nav-item'>
-                <Link to='/resume' className='nav-link'>
-                  Resume
-                </Link>
-              </li>
-            </ul>
-          </nav>
+          <div className='col-12'>
+            <Navigation /> {/* Use Navigation component */}
+          </div>
         </div>
       </div>
     </header>

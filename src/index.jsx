@@ -8,20 +8,24 @@ import Contact from "./pages/Contact";
 import Resume from "./pages/Resume";
 import "./index.css"; // Global styles
 import "bootstrap/dist/css/bootstrap.min.css"; 
+import { ROUTES } from "./paths";
+
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
     children: [
-      { path: "about-me", element: <AboutMe /> },
-      { path: "portfolio", element: <Portfolio /> },
-      { path: "contact", element: <Contact /> },
-      { path: "resume", element: <Resume /> },
+      { path: ROUTES.ABOUT_ME, element: <AboutMe /> },
+      { path: ROUTES.PORTFOLIO, element: <Portfolio /> },
+      { path: ROUTES.CONTACT, element: <Contact /> },
+      { path: ROUTES.RESUME, element: <Resume /> },
     ],
   },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <RouterProvider router={router} />
+  <React.StrictMode>
+    <RouterProvider router={router} />
+  </React.StrictMode>
 );

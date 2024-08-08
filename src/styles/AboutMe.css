@@ -1,0 +1,13 @@
+.about-me {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+}
+
+.avatar {
+  max-width: 150px;
+}
+
+.bio {
+  font-size: 1.2em;
+  line-height: 1.6;
+}

@@ -1,6 +1,12 @@
 .about-me {
   padding: 40px 20px;
-  background-color: #f9f9f9;
+  background-color: #c24949;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex: 1; /* Ensures it takes up the full available space */
 }
 
 .avatar {

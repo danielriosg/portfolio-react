@@ -9,9 +9,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
-    <div>
+    <div className='app-container'>
       <Header />
-      <div className='container-fluid'>
+      <div className='container-fluid custom-container'>
         <Outlet /> {/* This is where the child components will be rendered */}
       </div>
       <Footer />
